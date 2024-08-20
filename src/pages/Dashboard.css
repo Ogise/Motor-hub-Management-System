@@ -1,0 +1,43 @@
+.dashboard-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.dashboard-widgets {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.widget {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.widget h3 {
+    margin: 0 0 10px;
+}
+
+.widget p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.slideshow-container {
+    margin-top: 30px;
+}
+
+.slideshow-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.slideshow-container p {
+    margin-top: 10px;
+    font-size: 16px;
+}
